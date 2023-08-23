@@ -4,7 +4,7 @@ const app = express();
 const http = require("http");
 require("dotenv").config();
 const stripe = require("stripe")(
-  "sk_test_51NXmTwKdHWHzO5IP9QjvzYeHpqYqQjm93m7b1fYijHGUFnsf8wgm2cJITtZlb71XhBCL31Gg9hiTstQwVj2TtrbV00jnoD0DEt"
+  "stripe code link"
 );
 require("./connection");
 const server = http.createServer(app);
